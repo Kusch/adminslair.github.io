@@ -1,0 +1,97 @@
+<html>
+<body>
+	<head>
+		<!--UTF-8-->
+		<meta charset="UTF-8">
+		<!-- Title -->
+		<title>Adminslair</title>
+		<!-- Page-Icon -->
+		<link  rel="shortcut icon" type="image/png" href="Images/logo-48.png">
+		<!-- CSS -->
+		<link rel="stylesheet" href="css.css">
+	</head>
+	<div id="body">
+		<h1><img src="./Images/logo-48.png">Adminslair</h1>
+		<hr>
+			<h2>Serverstatus</h2>
+		<hr>
+			<h2>Animationen</h2>
+			<button class="btn" onclick="myMove()">Click Me</button> 
+			<div id ="myContainer">
+				<div id ="myAnimation"></div>
+			</div>
+			<br>
+			<div id="myProgress">
+ 				<div id="myBar"><span id="probar01"><span></div>
+			</div>
+		<hr>
+			<div id="projects">
+			<h2>Projekte</h2>
+				<div id="div_gridcontainer">
+					<div class="grid_left" style="border: 1px solid none; border-radius: 10px 0px 0px 0px;">
+						<table cellspacing="1" cellpadding="1">
+							<tr id="tr_projects1">
+							</tr>
+						</table>
+					</div>
+					<div class="grid_right" style="border: 1px solid none; border-radius: 0px 10px 10px 0px;">
+						<table cellspacing="1" cellpadding="1">
+							<tr id="tr_projects2">
+							</tr>
+						</table>
+					</div>
+					<div class="grid_left" style="border: 1px solid none; border-radius: 0px 0px 10px 10px;">
+						<table cellspacing="1" cellpadding="1">
+							<tr id="tr_projects3">
+							</tr>
+						</table>
+					</div>
+				</div>	
+			<br>
+				<div id="div_proListe">
+					<div id="div_proListe_header">
+						<h3>ProjektListe</h3>
+					</div>
+					<div id="div_proListe_body">
+						<table cellspacing="1" cellpadding="1">
+							<tr style="font-weight: bold;">
+								<td>#</td>
+								<td>Titel</td>
+								<td>Datum</td>
+							</tr>
+							<tr id="tr_projects4">
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		<br>
+		<hr>
+			<h3>Changelog</h3>
+				<div id="div_changelog">
+					<table id="tbl_changelog" cellspacing="1" cellpadding="1">
+						<tr style="font-weight: bold;">
+							<td>v.</td>
+							<td>Titel</td>
+							<td>Datum</td>
+						</tr>
+						<tr id="tr_changelog">
+						</tr>
+					</table>
+				</div>
+		<br>
+	</div>
+	<footer>
+		&copy; 
+		<span>Adminslair 2016</span> 
+		<img src="./Images/logo-48.png" height="20px">
+		<span style="float:right; padding: 10px;">Kuschelbär</span> 
+		<br>
+		<span style="font-size: 12px;">Last update:</span>
+		<span style="font-size: 12px;" id="span_lastupdate"></span>
+	</footer>
+	<!-- Script -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="js.js"></script>
+</body>
+</html>

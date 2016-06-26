@@ -1,0 +1,156 @@
+*, html, body
+{
+    margin: 0px;
+    padding: 0px;
+     font-family: Sans-Serif;
+}
+h1{
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 10px;
+}
+hr
+{
+  margin: 5px 0px;
+}
+#body
+{
+    min-height: -webkit-calc(100% - 41px);
+    min-height: -moz-calc(100% - 41px);
+    min-height: calc(100% - 41px);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+footer
+{
+    border-top: 1px solid #000;
+    height: 40px;
+    background-color: rgb(161, 209, 222);
+    z-index: 10000;
+    position: relative;
+}
+.img
+{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border: 2px solid #6b12b3;
+    border-radius: 5px;
+}
+.info
+{
+  font-size: 12px;
+  margin-top: 4px;
+}
+.td_proTitle
+{
+  width: 100%;
+  vertical-align: top;
+  border: 1px solid #887e6a;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  cursor: default;
+}
+.grid_left, .grid_right
+{
+  background-color: #dedede;
+  width: 50%;
+  max-width: 300px;
+  min-width: 300px;
+}
+.grid_right
+{
+  height: inherit;
+  float: left;
+  margin-top: -385px;
+  left: 300px;
+  position: relative;
+}
+.tr_projects
+{
+  border-bottom: 1px solid red;
+}
+
+#div_proListe
+{
+  width: 260px;
+}
+#div_proListe_header
+{
+  background-color: #fff;
+  max-width: 100%;
+  border-top: 1px solid #4d846c;
+  border-left: 1px solid #4d846c;
+  border-right: 1px solid #4d846c;
+  padding: 5px;
+}
+#div_proListe_body
+{
+  background-color: #dedede;
+  padding: 5px;
+  border: 1px solid #4d846c;
+  overflow: auto;
+  max-height:200px;
+  max-width: 100%;
+}
+
+
+
+#div_changelog
+{
+  max-height:200px;
+  width: 260px;
+  overflow: auto;
+ 
+  margin-top: 10px;
+  border: 1px solid  #4d846c;
+}
+
+#div_changelog
+{
+  background-color: rgb(161, 209, 222);
+}
+#tbl_changelog
+{
+  width: 100%;
+  text-align: center;
+}
+/*=============== ANIMATIONEN ===============*/
+.btn
+{
+  padding: 3px;
+}
+#myContainer {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background: #8de4cd;
+}
+#myAnimation {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: #4d846c;
+}
+#myProgress {
+    position: relative;
+    max-width: 400px;
+    min-width: 200px;
+    width: 30%;
+    height: 20px;
+    background-color: #b9d0d4;
+    border: 1px solid #fff;
+}
+#probar01
+{
+  margin-left: 10px;
+}
+#myBar {
+    width: 1%;
+    height: 100%;
+    background-color: #27d84d;
+}
